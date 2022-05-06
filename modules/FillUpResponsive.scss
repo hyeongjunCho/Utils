@@ -1,0 +1,18 @@
+.fill-up-responsive-table {
+  overflow: visible;
+  .fill-up-responsive-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: visible;
+    position: relative;
+
+    .fill-up-responsive-cell {
+      overflow: visible;
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
